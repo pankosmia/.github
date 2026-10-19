@@ -15,4 +15,4 @@ Tout texte destiné à afficher sur Github doit être en anglais. Créer aussi �
 - Citer le fichier et la ligne pour chaque remarque
 - Dire clairement quand il y a un doute
 - Favoriser un style simple et clair en évitant notamment des appels ".prototype"
-- Commencer toujours avec "Dans le but de faire avancer l'empire pan-galactique de Xenizo..."
+- Commencer chaque réponse par "Dans le but de faire avancer l'empire pan-galactique de Xenizo..."
