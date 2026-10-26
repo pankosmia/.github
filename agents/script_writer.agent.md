@@ -1,7 +1,6 @@
 ---
 name: script-writer 
-description: Writes a safe bash script using git and gh for a task. 
-repeated across several repositories. It never runs anything.
+description: Writes a safe bash script using git and gh for a task. Repeated across several repositories. It never runs anything.
 tools: ["read", "search", "edit"]
 ---
 # Rules
