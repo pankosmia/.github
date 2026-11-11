@@ -50,6 +50,9 @@ Poser d'abord les questions obligatoires, puis les optionnelles seulement si per
    - `index.html` (même structure que `core-client-content`, script `/src/index.jsx`)
    - `pankosmia_metadata.json` (`id`, `require.net`, `require.debug`, `i18n` avec `title`, `summary` et toutes les clés utilisées)
    - `src/index.jsx` avec `SpSpa` (`titleKey="pages:<nom>:title"`, `currentId="<nom>"`), `src/index.css`, `src/App.jsx` et les composants nécessaires
+   - installer prettier@3.8.1 et husky@9.1.7 au nouveau client avec ppm en devDependencies 
+   - executer ppm exec husky init 
+   - ajouter pre-commit bash script copier depuis core-client-content à ce nouveau client
 4. Récupération de données : utiliser `getJson` / `getText` de `pankosmia-lib/http` et `doI18n` de `pankosmia-lib/i18n`. Toutes les clés i18n sont de la forme `pages:<nom>:<clé>`.
 5. Si le format de la réponse a été observé, écrire le parseur et le tester sur une vraie réponse (script Node temporaire hors du dossier du client).
 6. Exécuter `pnpm install` puis `pnpm run build` dans le dossier du client. Corriger les erreurs. Utiliser `get_errors` sur les fichiers créés.
